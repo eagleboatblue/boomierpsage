@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D6319E17-7530-43F3-B993-4FA32A8A76B1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Boomi.Erp.Sage.Webapi.Domain</RootNamespace>
+    <AssemblyName>Boomi.Erp.Sage.Webapi.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="Serilog">
+      <HintPath>..\packages\Serilog.2.9.0\lib\net46\Serilog.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Orders\Service.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Boomi.Erp.Sage.Webapi.Common\Boomi.Erp.Sage.Webapi.Common.csproj">
+      <Project>{EEFB70A6-7C8F-41EF-93F0-112EF9889A66}</Project>
+      <Name>Boomi.Erp.Sage.Webapi.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Boomi.Erp.Sage.Webapi.Data\Boomi.Erp.Sage.Webapi.Data.csproj">
+      <Project>{B351246D-AE87-425F-ACB2-2E4C3E353323}</Project>
+      <Name>Boomi.Erp.Sage.Webapi.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Boomi.Erp.Sage.Webapi.Models\Boomi.Erp.Sage.Webapi.Models.csproj">
+      <Project>{B08927F1-DC16-4393-AB20-BB503EEF6219}</Project>
+      <Name>Boomi.Erp.Sage.Webapi.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

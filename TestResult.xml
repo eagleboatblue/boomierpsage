@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="6" result="Passed" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="10" engine-version="3.11.1.0" clr-version="4.0.30319.42000" start-time="2020-05-13 01:17:16Z" end-time="2020-05-13 01:17:17Z" duration="0.855938">
+  <command-line><![CDATA[/Users/timofei.voronov/Work/src/stash.nov.com/caps_int_erp_sage/Nov.Caps.Int.Erp.Sage/packages/NUnit.ConsoleRunner.3.11.1/tools/nunit3-console.exe ./Nov.Caps.Int.Erp.Sage/Nov.Caps.Int.Erp.Sage.Data.Tests/bin/Debug/Nov.Caps.Int.Erp.Sage.Data.Tests.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1008" name="Nov.Caps.Int.Erp.Sage.Data.Tests.dll" fullname="/Users/timofei.voronov/Work/src/stash.nov.com/caps_int_erp_sage/Nov.Caps.Int.Erp.Sage/Nov.Caps.Int.Erp.Sage.Data.Tests/bin/Debug/Nov.Caps.Int.Erp.Sage.Data.Tests.dll" runstate="Runnable" testcasecount="6" result="Passed" start-time="2020-05-13 01:17:17Z" end-time="2020-05-13 01:17:17Z" duration="0.062331" total="6" passed="6" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="10">
+    <environment framework-version="3.12.0.0" clr-version="4.0.30319.42000" os-version="MacOSX 19.4.0.0" platform="Unix" cwd="/Users/timofei.voronov/Work/src/stash.nov.com/caps_int_erp_sage" machine-name="AMAC02YD3SFJGH5" user="timofei.voronov" user-domain="AMAC02YD3SFJGH5" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="/Users/timofei.voronov/Work/src/stash.nov.com/caps_int_erp_sage" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.7.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="RuntimeFramework" value="mono-4.0" />
+      <setting name="NumberOfTestWorkers" value="12" />
+    </settings>
+    <properties>
+      <property name="_PID" value="72289" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1009" name="Nov" fullname="Nov" runstate="Runnable" testcasecount="6" result="Passed" start-time="2020-05-13 01:17:17Z" end-time="2020-05-13 01:17:17Z" duration="0.052803" total="6" passed="6" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="10">
+      <test-suite type="TestSuite" id="0-1010" name="Caps" fullname="Nov.Caps" runstate="Runnable" testcasecount="6" result="Passed" start-time="2020-05-13 01:17:17Z" end-time="2020-05-13 01:17:17Z" duration="0.052623" total="6" passed="6" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="10">
+        <test-suite type="TestSuite" id="0-1011" name="Int" fullname="Nov.Caps.Int" runstate="Runnable" testcasecount="6" result="Passed" start-time="2020-05-13 01:17:17Z" end-time="2020-05-13 01:17:17Z" duration="0.052599" total="6" passed="6" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="10">
+          <test-suite type="TestSuite" id="0-1012" name="Erp" fullname="Nov.Caps.Int.Erp" runstate="Runnable" testcasecount="6" result="Passed" start-time="2020-05-13 01:17:17Z" end-time="2020-05-13 01:17:17Z" duration="0.052585" total="6" passed="6" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="10">
+            <test-suite type="TestSuite" id="0-1013" name="Sage" fullname="Nov.Caps.Int.Erp.Sage" runstate="Runnable" testcasecount="6" result="Passed" start-time="2020-05-13 01:17:17Z" end-time="2020-05-13 01:17:17Z" duration="0.052573" total="6" passed="6" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="10">
+              <test-suite type="TestSuite" id="0-1014" name="Data" fullname="Nov.Caps.Int.Erp.Sage.Data" runstate="Runnable" testcasecount="6" result="Passed" start-time="2020-05-13 01:17:17Z" end-time="2020-05-13 01:17:17Z" duration="0.052555" total="6" passed="6" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="10">
+                <test-suite type="TestSuite" id="0-1015" name="Tests" fullname="Nov.Caps.Int.Erp.Sage.Data.Tests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2020-05-13 01:17:17Z" end-time="2020-05-13 01:17:17Z" duration="0.052543" total="6" passed="6" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="10">
+                  <test-suite type="TestSuite" id="0-1016" name="Helpers" fullname="Nov.Caps.Int.Erp.Sage.Data.Tests.Helpers" runstate="Runnable" testcasecount="5" result="Passed" start-time="2020-05-13 01:17:17Z" end-time="2020-05-13 01:17:17Z" duration="0.051498" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="10">
+                    <test-suite type="TestFixture" id="0-1002" name="ParserTest" fullname="Nov.Caps.Int.Erp.Sage.Data.Tests.Helpers.ParserTest" classname="Nov.Caps.Int.Erp.Sage.Data.Tests.Helpers.ParserTest" runstate="Runnable" testcasecount="5" result="Passed" start-time="2020-05-13 01:17:17Z" end-time="2020-05-13 01:17:17Z" duration="0.050029" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="10">
+                      <test-case id="0-1005" name="ParseExtraLongSentence" fullname="Nov.Caps.Int.Erp.Sage.Data.Tests.Helpers.ParserTest.ParseExtraLongSentence" methodname="ParseExtraLongSentence" classname="Nov.Caps.Int.Erp.Sage.Data.Tests.Helpers.ParserTest" runstate="Runnable" seed="1813517840" result="Passed" start-time="2020-05-13 01:17:17Z" end-time="2020-05-13 01:17:17Z" duration="0.037281" asserts="2" />
+                      <test-case id="0-1006" name="ParseExtraLongWord" fullname="Nov.Caps.Int.Erp.Sage.Data.Tests.Helpers.ParserTest.ParseExtraLongWord" methodname="ParseExtraLongWord" classname="Nov.Caps.Int.Erp.Sage.Data.Tests.Helpers.ParserTest" runstate="Runnable" seed="1558933320" result="Passed" start-time="2020-05-13 01:17:17Z" end-time="2020-05-13 01:17:17Z" duration="0.003825" asserts="2" />
+                      <test-case id="0-1007" name="ParseExtraLongWord2" fullname="Nov.Caps.Int.Erp.Sage.Data.Tests.Helpers.ParserTest.ParseExtraLongWord2" methodname="ParseExtraLongWord2" classname="Nov.Caps.Int.Erp.Sage.Data.Tests.Helpers.ParserTest" runstate="Runnable" seed="2001942870" result="Passed" start-time="2020-05-13 01:17:17Z" end-time="2020-05-13 01:17:17Z" duration="0.000511" asserts="2" />
+                      <test-case id="0-1003" name="ParseLongSentence" fullname="Nov.Caps.Int.Erp.Sage.Data.Tests.Helpers.ParserTest.ParseLongSentence" methodname="ParseLongSentence" classname="Nov.Caps.Int.Erp.Sage.Data.Tests.Helpers.ParserTest" runstate="Runnable" seed="1008314705" result="Passed" start-time="2020-05-13 01:17:17Z" end-time="2020-05-13 01:17:17Z" duration="0.000365" asserts="2" />
+                      <test-case id="0-1004" name="ParseLongWord" fullname="Nov.Caps.Int.Erp.Sage.Data.Tests.Helpers.ParserTest.ParseLongWord" methodname="ParseLongWord" classname="Nov.Caps.Int.Erp.Sage.Data.Tests.Helpers.ParserTest" runstate="Runnable" seed="937528807" result="Passed" start-time="2020-05-13 01:17:17Z" end-time="2020-05-13 01:17:17Z" duration="0.000385" asserts="2" />
+                    </test-suite>
+                  </test-suite>
+                  <test-suite type="TestFixture" id="0-1000" name="Test" fullname="Nov.Caps.Int.Erp.Sage.Data.Tests.Test" classname="Nov.Caps.Int.Erp.Sage.Data.Tests.Test" runstate="Runnable" testcasecount="1" result="Passed" start-time="2020-05-13 01:17:17Z" end-time="2020-05-13 01:17:17Z" duration="0.000237" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+                    <test-case id="0-1001" name="TestCase" fullname="Nov.Caps.Int.Erp.Sage.Data.Tests.Test.TestCase" methodname="TestCase" classname="Nov.Caps.Int.Erp.Sage.Data.Tests.Test" runstate="Runnable" seed="1390233313" result="Passed" start-time="2020-05-13 01:17:17Z" end-time="2020-05-13 01:17:17Z" duration="0.000105" asserts="0" />
+                  </test-suite>
+                </test-suite>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

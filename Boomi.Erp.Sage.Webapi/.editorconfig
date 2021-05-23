@@ -1,0 +1,28 @@
+﻿[*.cs]
+
+# CS1701: Assuming assembly reference matches identity
+dotnet_diagnostic.CS1701.severity = none
+
+# IDE0049: Simplify Names
+dotnet_style_predefined_type_for_locals_parameters_members = true:none
+
+# IDE0049: Simplify Names
+dotnet_style_predefined_type_for_member_access = true:none
+
+# IDE0003: Remove qualification
+dotnet_style_qualification_for_property = true:none
+
+# IDE0003: Remove qualification
+dotnet_style_qualification_for_event = false:none
+
+# IDE0003: Remove qualification
+dotnet_style_qualification_for_field = false:none
+
+# IDE0003: Remove qualification
+dotnet_style_qualification_for_method = false:none
+
+# CS1702: Assuming assembly reference matches identity
+dotnet_diagnostic.CS1702.severity = none
+
+# IDE0002: Simplify Member Access
+dotnet_diagnostic.IDE0002.severity = none
